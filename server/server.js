@@ -50,7 +50,7 @@ app.get('/todos/:id', (req, res) => {
 });
 
 app.listen(port, ()=> {
-    console.log(`On port 3000 ${port}`);
+    console.log(`On port ${port}`);
 });
 
 module.exports = {app};
